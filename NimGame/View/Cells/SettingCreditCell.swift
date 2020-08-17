@@ -13,7 +13,7 @@ struct SettingCreditCell: View {
             Text("Les défis")
                 .font(.system(size: 30, weight: .bold))
             Text("de")
-                .font(.system(size: 15, weight: .thin))
+                .font(.system(size: 19, weight: .thin))
                 .foregroundColor(.purpleGiraffe)
             Text("Purple Giraffe")
                 .font(.system(size: 44, weight: .bold))

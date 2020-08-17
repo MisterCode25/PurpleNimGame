@@ -16,7 +16,7 @@ struct SettingMatchCell: View {
     
     var body: some View {
         HStack {
-            Text("Matchs")
+            Text("Matches")
             Spacer(minLength: 100)
             Stepper("\(matchesNumberTemp)") {
                 if matchesNumberTemp < 50 {
