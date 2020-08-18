@@ -29,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED08DE0E24EC3EFF00B33C9F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ED459DD224E5D31800611449 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		ED459DD724E5D87D00611449 /* SettingMatchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingMatchCell.swift; sourceTree = "<group>"; };
 		ED50145924E95CBB006E83B3 /* SettingsIALevelCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsIALevelCellView.swift; sourceTree = "<group>"; };
@@ -103,6 +104,7 @@
 		EDFFB84024E1B305002F3EA9 = {
 			isa = PBXGroup;
 			children = (
+				ED08DE0E24EC3EFF00B33C9F /* README.md */,
 				EDFFB84B24E1B305002F3EA9 /* NimGame */,
 				EDFFB84A24E1B305002F3EA9 /* Products */,
 			);
@@ -121,7 +123,7 @@
 			children = (
 				EDFFB84C24E1B305002F3EA9 /* NimGameApp.swift */,
 				ED50145F24E96C7B006E83B3 /* extension */,
-				EDFFB85D24E1B34E002F3EA9 /* View */,
+				EDFFB85D24E1B34E002F3EA9 /* Views */,
 				EDFFB85C24E1B342002F3EA9 /* ViewModel */,
 				EDFFB85B24E1B33A002F3EA9 /* Model */,
 				ED6FC96B24E5C0BA00756389 /* DataRepository */,
@@ -157,7 +159,7 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		EDFFB85D24E1B34E002F3EA9 /* View */ = {
+		EDFFB85D24E1B34E002F3EA9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				ED89E49624E566090029D808 /* MainView.swift */,
@@ -167,7 +169,7 @@
 				ED459DD424E5D78100611449 /* Cells */,
 				ED936F7724E5B75A0075E4B4 /* Components */,
 			);
-			path = View;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

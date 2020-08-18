@@ -21,7 +21,7 @@ struct PlayerConfigView: View {
                 .padding()
                 .disabled(!userInteraction)
             VStack {
-                ColorPicker("Choose your color", selection: $player.color)
+                ColorPicker("Player color", selection: $player.color)
             }
         }
         .padding(.leading, 16)
