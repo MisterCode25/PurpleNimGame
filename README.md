@@ -8,8 +8,8 @@ Purple Nim is an app that allows you to play the famous NIM game. The rules are 
 ## Project 
 
 1. This application was created for Purple Giraffe challenges.    
-2. [Purple Giraffe]("https://www.purplegiraffe.fr") is an online training platform specializing in mobile development.   
- 
+2. [ Purple Giraffe]("https://purplegiraffe.fr") is an online training platform specializing in mobile development.   
+  
 ## Features
 
 *  Play with a friend or against the IA. You can even let the IA compete against each other. 
