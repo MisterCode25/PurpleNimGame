@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SettingMatchCell: View {
     
-    @AppStorage("maxMatches") var matchesNumber: Int = 19
+    @AppStorage("maxMatches") var matchesNumber: Int = 20
     
     // Un bug ne permet pas d'utiliser le Stepper correctement avec matchNumber. 
     @State var matchesNumberTemp: Int = 0
