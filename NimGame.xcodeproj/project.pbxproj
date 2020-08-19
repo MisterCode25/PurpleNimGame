@@ -43,6 +43,7 @@
 		ED936F7824E5B7C10075E4B4 /* PlayerConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerConfigView.swift; sourceTree = "<group>"; };
 		EDAE380924E31C6900D40665 /* MatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchView.swift; sourceTree = "<group>"; };
 		EDB6855724E6E07200DBF377 /* IA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IA.swift; sourceTree = "<group>"; };
+		EDD2AEEC24ED3C68002FD323 /* mainLogo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mainLogo.jpeg; sourceTree = "<group>"; };
 		EDFFB84924E1B305002F3EA9 /* NimGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NimGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDFFB84C24E1B305002F3EA9 /* NimGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimGameApp.swift; sourceTree = "<group>"; };
 		EDFFB84E24E1B305002F3EA9 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
@@ -101,9 +102,18 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		EDD2AEEB24ED3C08002FD323 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EDD2AEEC24ED3C68002FD323 /* mainLogo.jpeg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		EDFFB84024E1B305002F3EA9 = {
 			isa = PBXGroup;
 			children = (
+				EDD2AEEB24ED3C08002FD323 /* Images */,
 				ED08DE0E24EC3EFF00B33C9F /* README.md */,
 				EDFFB84B24E1B305002F3EA9 /* NimGame */,
 				EDFFB84A24E1B305002F3EA9 /* Products */,
