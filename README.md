@@ -21,6 +21,12 @@ Purple Nim is an app that allows you to play the famous NIM game. The rules are 
 
 ![picture](Images/Screenshots/1.png) | ![picture](Images/Screenshots/2.png) | ![picture](Images/Screenshots/3.png) | ![picture](Images/Screenshots/4.png)
 
+## Todo 
+
+*  Code comment
+*  Unit test
+*  App Icon 
+
 ## Licence 
 
 MIT 

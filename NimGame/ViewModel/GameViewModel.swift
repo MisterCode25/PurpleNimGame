@@ -11,7 +11,7 @@ import SwiftUI
 
 class GameViewModel: ObservableObject {
     
-    @AppStorage("maxMatches") private var maxMatches: Int = 19
+    @AppStorage("maxMatches") private var maxMatches: Int = 20
     @Published var matches: [Int] = []
     @Published var currentPlayer: Player
     @Published var winner:Player?
