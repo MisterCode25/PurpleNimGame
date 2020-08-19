@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MainView: View {
     
-    @State var firstPlayer = Player(name: "PLayer 1", color: Color.blue)
+    @State var firstPlayer = Player(name: "Player 1", color: Color.blue)
     @State var secondPlayer = Player(name: "Player 2", color: Color.green)
     @State private var isGameViewPresented = false
     @State private var isSettingsViewPresented = false
@@ -20,7 +20,7 @@ struct MainView: View {
     var body: some View {
         VStack {
             HStack {
-                Button(action: {
+                Button(action: {#imageLiteral(resourceName: "simulator_screenshot_3F26DABE-E5CA-4874-B5F7-E4B781CC42C3.png")
                     isSettingsViewPresented = true
                 }, label: {
                     Image(systemName: "gearshape.fill")

@@ -44,6 +44,10 @@
 		EDAE380924E31C6900D40665 /* MatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchView.swift; sourceTree = "<group>"; };
 		EDB6855724E6E07200DBF377 /* IA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IA.swift; sourceTree = "<group>"; };
 		EDD2AEEC24ED3C68002FD323 /* mainLogo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mainLogo.jpeg; sourceTree = "<group>"; };
+		EDD2AEEE24ED47B2002FD323 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		EDD2AEEF24ED47C5002FD323 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		EDD2AEF024ED480B002FD323 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		EDD2AEF124ED4818002FD323 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
 		EDFFB84924E1B305002F3EA9 /* NimGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NimGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDFFB84C24E1B305002F3EA9 /* NimGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimGameApp.swift; sourceTree = "<group>"; };
 		EDFFB84E24E1B305002F3EA9 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
@@ -105,9 +109,21 @@
 		EDD2AEEB24ED3C08002FD323 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				EDD2AEED24ED45FA002FD323 /* Screenshots */,
 				EDD2AEEC24ED3C68002FD323 /* mainLogo.jpeg */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		EDD2AEED24ED45FA002FD323 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				EDD2AEEF24ED47C5002FD323 /* 1.png */,
+				EDD2AEEE24ED47B2002FD323 /* 2.png */,
+				EDD2AEF024ED480B002FD323 /* 3.png */,
+				EDD2AEF124ED4818002FD323 /* 4.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 		EDFFB84024E1B305002F3EA9 = {
