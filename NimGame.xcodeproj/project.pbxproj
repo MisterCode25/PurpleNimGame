@@ -48,6 +48,7 @@
 		EDD2AEEF24ED47C5002FD323 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		EDD2AEF024ED480B002FD323 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		EDD2AEF124ED4818002FD323 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		EDE2A70C24ED521E0073EFE5 /* NimGame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NimGame.entitlements; sourceTree = "<group>"; };
 		EDFFB84924E1B305002F3EA9 /* NimGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NimGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDFFB84C24E1B305002F3EA9 /* NimGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimGameApp.swift; sourceTree = "<group>"; };
 		EDFFB84E24E1B305002F3EA9 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
@@ -147,6 +148,7 @@
 		EDFFB84B24E1B305002F3EA9 /* NimGame */ = {
 			isa = PBXGroup;
 			children = (
+				EDE2A70C24ED521E0073EFE5 /* NimGame.entitlements */,
 				EDFFB84C24E1B305002F3EA9 /* NimGameApp.swift */,
 				ED50145F24E96C7B006E83B3 /* extension */,
 				EDFFB85D24E1B34E002F3EA9 /* Views */,
@@ -411,6 +413,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NimGame/NimGame.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"NimGame/Preview Content\"";
 				DEVELOPMENT_TEAM = 4D89U37SLQ;
@@ -423,6 +426,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mestariapp.NimGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -433,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NimGame/NimGame.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"NimGame/Preview Content\"";
 				DEVELOPMENT_TEAM = 4D89U37SLQ;
@@ -445,6 +450,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mestariapp.NimGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
