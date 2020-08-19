@@ -20,7 +20,7 @@ struct MainView: View {
     var body: some View {
         VStack {
             HStack {
-                Button(action: {#imageLiteral(resourceName: "simulator_screenshot_3F26DABE-E5CA-4874-B5F7-E4B781CC42C3.png")
+                Button(action: {
                     isSettingsViewPresented = true
                 }, label: {
                     Image(systemName: "gearshape.fill")
