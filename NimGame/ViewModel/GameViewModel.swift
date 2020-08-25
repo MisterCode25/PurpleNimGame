@@ -55,7 +55,9 @@ class GameViewModel: ObservableObject {
     }
     
     func startGame() {
-        ia?.start()
+        if currentPlayer.isIA {
+            ia?.start()
+        }
     }
     
     fileprivate func affectPlayer() {

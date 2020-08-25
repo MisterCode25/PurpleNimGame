@@ -30,7 +30,7 @@ class IA {
         nextStep(continue: true)
     }
     
-    private func play() {
+     private func play() {
         if iaLapCounter == 0 {
             nextStep(continue: false)
         } else {

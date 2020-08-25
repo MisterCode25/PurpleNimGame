@@ -38,7 +38,7 @@ struct GameView: View {
                     }
                     
                     Spacer()
-                   
+                    
                     Button(action: {
                         isPresented = false
                     }, label: {
@@ -49,7 +49,7 @@ struct GameView: View {
                 }
                 .padding(.trailing, 16)
                 .padding(.leading,16)
-               
+                
                 MatchesGridView(game: game)
                     .padding()
                 
@@ -69,15 +69,13 @@ struct GameView: View {
                 
             }
             .onAppear() {
-                if game.currentPlayer.isIA {
-                    game.startGame()
-                }
+                game.startGame()
             }
             .alert(isPresented: $game.showAlert, content: {
                 Alert(title: Text(game.alertMessage))
             })
         }
-            
+        
     }
 }
 

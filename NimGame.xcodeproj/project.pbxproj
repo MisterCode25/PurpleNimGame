@@ -13,6 +13,7 @@
 		ED50145C24E9648E006E83B3 /* SettingCreditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED50145B24E9648E006E83B3 /* SettingCreditCell.swift */; };
 		ED50146124E96C85006E83B3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED50146024E96C85006E83B3 /* Color.swift */; };
 		ED50146324E971D7006E83B3 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED50146224E971D7006E83B3 /* LogoView.swift */; };
+		ED5E992624F116E8003E3206 /* GameViewModelTestsCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5E992524F116E8003E3206 /* GameViewModelTestsCases.swift */; };
 		ED6FC96A24E5BFD700756389 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FC96924E5BFD700756389 /* ResultView.swift */; };
 		ED6FC96D24E5C0D200756389 /* DataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FC96C24E5C0D200756389 /* DataRepository.swift */; };
 		ED89E49524E4004B0029D808 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89E49424E4004B0029D808 /* Player.swift */; };
@@ -28,6 +29,16 @@
 		EDFFB86124E1B48F002F3EA9 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFFB86024E1B48F002F3EA9 /* GameViewModel.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		ED5E992024F10742003E3206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDFFB84124E1B305002F3EA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDFFB84824E1B305002F3EA9;
+			remoteInfo = NimGame;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		ED08DE0E24EC3EFF00B33C9F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ED459DD224E5D31800611449 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -36,6 +47,9 @@
 		ED50145B24E9648E006E83B3 /* SettingCreditCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCreditCell.swift; sourceTree = "<group>"; };
 		ED50146024E96C85006E83B3 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		ED50146224E971D7006E83B3 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		ED5E991B24F10742003E3206 /* NimGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5E991F24F10742003E3206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED5E992524F116E8003E3206 /* GameViewModelTestsCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModelTestsCases.swift; sourceTree = "<group>"; };
 		ED6FC96924E5BFD700756389 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		ED6FC96C24E5C0D200756389 /* DataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRepository.swift; sourceTree = "<group>"; };
 		ED89E49424E4004B0029D808 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
@@ -60,6 +74,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		ED5E991824F10742003E3206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EDFFB84624E1B305002F3EA9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -86,6 +107,15 @@
 				ED50146024E96C85006E83B3 /* Color.swift */,
 			);
 			path = extension;
+			sourceTree = "<group>";
+		};
+		ED5E991C24F10742003E3206 /* NimGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED5E991F24F10742003E3206 /* Info.plist */,
+				ED5E992524F116E8003E3206 /* GameViewModelTestsCases.swift */,
+			);
+			path = NimGameTests;
 			sourceTree = "<group>";
 		};
 		ED6FC96B24E5C0BA00756389 /* DataRepository */ = {
@@ -133,6 +163,7 @@
 				EDD2AEEB24ED3C08002FD323 /* Images */,
 				ED08DE0E24EC3EFF00B33C9F /* README.md */,
 				EDFFB84B24E1B305002F3EA9 /* NimGame */,
+				ED5E991C24F10742003E3206 /* NimGameTests */,
 				EDFFB84A24E1B305002F3EA9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -141,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				EDFFB84924E1B305002F3EA9 /* NimGame.app */,
+				ED5E991B24F10742003E3206 /* NimGameTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -203,6 +235,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		ED5E991A24F10742003E3206 /* NimGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED5E992424F10742003E3206 /* Build configuration list for PBXNativeTarget "NimGameTests" */;
+			buildPhases = (
+				ED5E991724F10742003E3206 /* Sources */,
+				ED5E991824F10742003E3206 /* Frameworks */,
+				ED5E991924F10742003E3206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED5E992124F10742003E3206 /* PBXTargetDependency */,
+			);
+			name = NimGameTests;
+			productName = NimGameTests;
+			productReference = ED5E991B24F10742003E3206 /* NimGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		EDFFB84824E1B305002F3EA9 /* NimGame */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDFFB85824E1B306002F3EA9 /* Build configuration list for PBXNativeTarget "NimGame" */;
@@ -229,6 +279,11 @@
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					ED5E991A24F10742003E3206 = {
+						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
+						TestTargetID = EDFFB84824E1B305002F3EA9;
+					};
 					EDFFB84824E1B305002F3EA9 = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -248,11 +303,19 @@
 			projectRoot = "";
 			targets = (
 				EDFFB84824E1B305002F3EA9 /* NimGame */,
+				ED5E991A24F10742003E3206 /* NimGameTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		ED5E991924F10742003E3206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EDFFB84724E1B305002F3EA9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -265,6 +328,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		ED5E991724F10742003E3206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5E992624F116E8003E3206 /* GameViewModelTestsCases.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EDFFB84524E1B305002F3EA9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -291,7 +362,56 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		ED5E992124F10742003E3206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDFFB84824E1B305002F3EA9 /* NimGame */;
+			targetProxy = ED5E992024F10742003E3206 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		ED5E992224F10742003E3206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NimGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.mestariapp.com.NimGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NimGame.app/NimGame";
+			};
+			name = Debug;
+		};
+		ED5E992324F10742003E3206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NimGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.mestariapp.com.NimGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NimGame.app/NimGame";
+			};
+			name = Release;
+		};
 		EDFFB85624E1B306002F3EA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -459,6 +579,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		ED5E992424F10742003E3206 /* Build configuration list for PBXNativeTarget "NimGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5E992224F10742003E3206 /* Debug */,
+				ED5E992324F10742003E3206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EDFFB84424E1B305002F3EA9 /* Build configuration list for PBXProject "NimGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

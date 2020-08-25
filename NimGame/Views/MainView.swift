@@ -17,6 +17,7 @@ struct MainView: View {
     @State private var userInteractionForP1: Bool = true
     @State private var userInteractionForP2: Bool = true
     
+    @ViewBuilder
     var body: some View {
         VStack {
             HStack {
